@@ -1,0 +1,20 @@
+# https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/getting-started/
+# https://docs.camunda.io/docs/apis-tools/spring-zeebe-sdk/configuration/
+
+camunda:
+  client:
+    mode: saas
+    auth:
+      client-id: d7514~_hRzgjNdj~iPRPcLB1lLZ3OeFG
+      client-secret: SCbUSDtmEMPSicV3_9CKH_LyIKjquYK4B2hC.rpOYXx4_7Kh1gSP.VNDHvbISwxw
+    cluster-id: 5eacb104-c441-4519-a735-420696a75a20
+    region: sin-1
+
+
+spring:
+  application:
+    name: database
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/camunda
+
